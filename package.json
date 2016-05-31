@@ -1,8 +1,13 @@
 {
   "name": "uwfoster-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "UW Foster School of Business utility functions",
-  "keywords": ["string", "format", "utility", "util"],
+  "keywords": [
+    "string",
+    "format",
+    "utility",
+    "util"
+  ],
   "main": "./dist/index.js",
   "scripts": {
     "build": "babel src -s -d dist",
