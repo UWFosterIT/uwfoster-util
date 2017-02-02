@@ -1,6 +1,7 @@
 /**
  * Created by gabugabu on 5/31/16.
  */
+/* global expect, uwutil */
 import './setup';
 
 describe('daysOfWeek', () => {

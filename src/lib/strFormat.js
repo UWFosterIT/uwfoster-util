@@ -1,10 +1,8 @@
 /**
  * Created by gabugabu on 5/27/16.
  */
-import {install} from 'source-map-support';
+import 'source-map-support/register';
 import _ from 'lodash';
-
-install();
 
 export function daysOfWeek(days) {
   if (typeof days === 'string') {
@@ -32,5 +30,8 @@ export function padAndTrim(str, length) {
 }
 
 export function truncateOnLastComma(str, length) {
-  return _.truncate(str, {length: length, separator: /,? +/});
+  return _.truncate(str, {
+    length:    length,
+    separator: /,? +/
+  });
 }
